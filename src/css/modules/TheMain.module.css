@@ -1,0 +1,26 @@
+.main{
+    background-color: #e3e3e3;
+    padding: 1rem 0 6rem;
+
+}
+
+.card{
+    @apply bg-white rounded shadow-lg overflow-hidden m-auto;
+    max-width: 400px;
+}
+
+.card .cardContent{
+    @apply p-4;
+}
+
+.card h2{
+    @apply font-semibold;
+}
+
+.card p{
+    @apply text-sm;
+}
+
+.card .cardButton{
+    @apply mt-4 text-center shadow-md bg-yellow-500 text-white rounded-sm px-4 py-1  hover:bg-yellow-400;
+}
